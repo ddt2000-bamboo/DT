@@ -1,4 +1,4 @@
-# Thing 
+# Web Design 
 
 ## Lesson 1: HTML Basics and Tags ###
 Objective: Introduce students to the structure of a web page and the foundational HTML tags.
