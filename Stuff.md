@@ -1,9 +1,9 @@
 # Thing 
 
-### Lesson 1: HTML Basics and Tags ###
+## Lesson 1: HTML Basics and Tags ###
 Objective: Introduce students to the structure of a web page and the foundational HTML tags.
 
-#### What is HTML?
+### What is HTML?
 
 HTML stands for HyperText Markup Language.
 
@@ -11,7 +11,7 @@ It's the language used to create web pages.
 
 Web pages are built using a series of HTML tags that tell the browser how to display content.
 
-## Basic Structure of an HTML Document
+### Basic Structure of an HTML Document
 
 `<!DOCTYPE html>`: Declares the document type.
 
@@ -66,7 +66,7 @@ The declaration block `(color: blue; font-size: 24px;) `specifies the style.
 
 `border:`  Adds a border around an element.
 
-## Linking CSS to HTML
+### Linking CSS to HTML
 
 Inline CSS: Styles directly within an HTML tag (e.g., <p style="color: red;">).
 Internal CSS: Styles within the <style> tag in the HTML <head>.
@@ -77,22 +77,31 @@ Activity: Style the Previous Web Page
 ## Lesson 3: Embedding Videos, Adding Images, and Links
 Objective: Teach students how to enhance their web pages by embedding multimedia and creating links.
 
-Embedding Images
+### Embedding Images
 
-Using the <img> tag to display images on a web page.
+Using the `<img>` tag to display images on a web page.
+
 Attributes: src (source), alt (alternative text), width, and height.
-Example: <img src="path/to/image.jpg" alt="Description of image">
-Adding Links
 
-The <a> tag for creating hyperlinks.
+Example: `<img src="path/to/image.jpg" alt="Description of image">`
+
+### Adding Links
+
+The `<a>` tag for creating hyperlinks.
+
 Attributes: href (hyperlink reference) and target (where to open the link).
-Example: <a href="https://www.example.com" target="_blank">Visit Example</a>
-Embedding Videos
 
-Using the <video> tag to embed video files.
+Example: `<a href="https://www.example.com" target="_blank">Visit Example</a>`
+
+### Embedding Videos
+
+Using the `<video>` tag to embed video files.
+
 Attributes: src, controls (to show video controls), autoplay, and loop.
-Example: <video src="video.mp4" controls>
-YouTube and Other External Videos
+
+Example: `<video src="video.mp4" controls>`
+### YouTube and Other External Videos
 
 Using <iframe> to embed videos from platforms like YouTube.
-Example: <iframe width="560" height="315" src="https://www.youtube.com/embed/videoID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Example: `<iframe width="560" height="315" src="https://www.youtube.com/embed/videoID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`
